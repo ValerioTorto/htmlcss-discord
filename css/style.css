@@ -29,6 +29,15 @@ a{
 .bg-nero{
     background-colo-r: #23272A;
     background-color: red;
-
-    
+}
+.bg-im{
+    background-image: url("../img/jumbo.png");
+    background-size: 100%;
+    background-position: 70%;
+}
+.pad{
+    padding: 50px;
+}
+.bianco{
+    color: white;
 }
