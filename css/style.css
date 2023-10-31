@@ -31,8 +31,7 @@ a{
     padding-right: 6px;
 }
 .bg-nero{
-    background-colo-r: #23272A;
-    background-color: red;
+    background-color: #23272A;
 }
 .bg-im1{
     background-image: url("../img/jumbo.png");
@@ -69,6 +68,9 @@ a{
 .bianco{
     color: white;
 }
+.m-top{
+    padding-top: 50px;
+}
 .m-bu{
     margin-right: 20px;
 }
@@ -98,37 +100,40 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
-ul{
-    list-style: none;
+.t-blu{
+    color: #7289DA;
 }
-#arrow {
-    border-right:2px solid black;
-    border-bottom:2px solid black;
-    width:10px;
-    height:10px;
-    transform: rotate(-45deg);
-    margin-top:40px;
+.t-bia{
+    color: white;
 }
-
-
-
-ul li {
-  position: relative;
-	padding-bottom: 10px;
-}
-
 ul {
   list-style: none;
 }
-
-ul li:after{
-   content: '';
-   position: absolute;
-   border-right:2px solid black;
-   border-bottom:2px solid black;
-   width:10px;
-   height:10px;
-   top: calc(50% - 4px);
-   left: -20px;
-   transform: translateY(-50%) rotate(-45deg);
-}
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .m-pic{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+  }
+  .prodotto{
+    margin-left: 30px;
+  }
+  .bandiera{
+    max-width: 10%;
+    height: 50%;
+    margin top: 50px;
+    
+  }
+  .flexo2{
+  display: flex; 
+  }
