@@ -53,6 +53,10 @@ a{
     padding: 50px;
     padding-left: 200px;
 }
+.pad4{
+    padding-top: 120px;
+    padding-right: 200px;
+}
 .bianco{
     color: white;
 }
@@ -62,4 +66,15 @@ a{
 
 .bottoni{
     border-radius: 60px;
+}
+.justify-text{
+    text-align: center;
+    padding: 20px;
+}
+.pic-center{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
