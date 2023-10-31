@@ -14,6 +14,10 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
+.flexo1{
+    display: flex;
+    justify-content: space-evenly;
+}
 .m-le{
     margin-left: 100px;
 }
@@ -30,7 +34,7 @@ a{
     background-colo-r: #23272A;
     background-color: red;
 }
-.bg-im{
+.bg-im1{
     background-image: url("../img/jumbo.png");
     background-size: 100%;
     background-position: 70%;
@@ -38,6 +42,24 @@ a{
 .pad{
     padding: 50px;
 }
+.pad1{
+    padding: 70px;
+}
+.pad2{
+    padding: 40px;
+    padding-right: 200px;
+}
+.pad3{
+    padding: 50px;
+    padding-left: 200px;
+}
 .bianco{
     color: white;
+}
+.m-bu{
+    margin-right: 20px;
+}
+
+.bottoni{
+    border-radius: 60px;
 }
