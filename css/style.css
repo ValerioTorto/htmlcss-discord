@@ -39,6 +39,15 @@ a{
     background-size: 100%;
     background-position: 70%;
 }
+.bg-im2{
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    text-align: center;
+    padding: 60px;   
+}
+
 .pad{
     padding: 50px;
 }
@@ -63,9 +72,15 @@ a{
 .m-bu{
     margin-right: 20px;
 }
+.bt-ble{
+    background-color: #7289DA;
+}
 
 .bottoni{
     border-radius: 60px;
+    color: white;
+    margin-left: 43%;
+    margin-bottom: 10%;
 }
 .justify-text{
     text-align: center;
@@ -76,5 +91,5 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
