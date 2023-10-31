@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-blu{
+    background-color: #255EE9;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.flexo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.m-le{
+    margin-left: 100px;
+}
+.bot1{
+    border-radius: 60px;
+    border-color: white;
+    background-color: white;
+    font-size: 80%;
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.bg-nero{
+    background-colo-r: #23272A;
+    background-color: red;
+
+    
+}

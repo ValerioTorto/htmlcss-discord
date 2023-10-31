@@ -1,56 +1,148 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
 
     <!-- Questo link serve per importare Bootstap (alto non è che un foglio di stile CSS) -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <!-- Dopo BOOSTRAP collego il mio foglio di stile (NON PRIMA DI BOOTSTRAP!)-->
     <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <header>
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-          <div class="col-2">
-            <p>LINK</p>
-  
-          </div>
-          <div class="col-6"></div>
-        </div>
-        <div class="2">
-          <p>BUTTON</p>
-        </div>
-      </div>
-  </header>
+</head>
 
-  <body>
-    <main>
-        <div class="container-fluid">
+<body>
+
+    <!-- QUI POTETE INIZIARE IL VOSTRO ESERCIZIO! -->
+    <header>
+        <div class="container-fluid bg-blu">
             <div class="row justify-content-center">
-                <div class="col-6 bg-">
-                    <p>PRIMA RIGA TESTO</p>
-
+                <div class="col-2">
+                    <img class="bg-blu" src="./img/logo.svg" alt="logo">
+                </div>
+                <div class="col-6 text-center flexo">
+                    <a href="link">Scarica</a>
+                    <a href="link">Perchè Discord</a>
+                    <a href="link">Nitro</a>
+                    <a href="link">Sicurezza</a>
+                    <a href="link">Assistenza</a>
+                </div>
+                <div class="col-2">
+                    <button class="m-le bot1">Accedi</button>
                 </div>
             </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container-fluid">
+
+            <div class="row justify-content-center bg-info">
+                <div class="col-6 text-center">
+                    <p>TITOLO</p>
+                    <p>Descrizione sottotitolo</p>
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-light">DISCORD</button>
+                        <button type="button" class="btn btn-light">ALTRO</button>
+                    </div>
+                </div>
+            </div>
+
             <div class="row justify-content-center">
                 <div class="col-6">
                     <p>IMMAGINE</p>
+                </div>
 
+                <div class="col-4">
+                    <p>TESTO</p>
+                </div>
+            </div>
+
+            <div class="row bg-light justify-content-center">
+                <div class="col-4">
+                    <p>TESTO</p>
+                </div>
+
+                <div class="col-6">
+
+                    <p>IMMAGINE</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <p>IMMAGINE</p>
+                </div>
+
+                <div class="col-4">
+                    <p>TESTO</p>
+                </div>
+            </div>
+
+            <div class="row bg-light justify-content-center">
+                <div class="col-10">
+                    <p>IMMAGINE</p>
                 </div>
             </div>
         </div>
+
     </main>
 
-    <!-- QUI POTETE INIZIARE IL VOSTRO ESERCIZIO! -->
+    <footer>
+        <div class="container-fluid bg-nero">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <p>
+                        LISTA
+                    </p>
+                </div>
+                <div class="col-2">
+                    <p>
+                        LISTA
+                    </p>
+                </div>
+                <div class="col-2">
+                    <p>
+                        LISTA
+                    </p>
+                </div>
+                <div class="col-2">
+                    <p>
+                        LISTA
+                    </p>
+                </div>
+                <div class="col-2">
+                    <p>
+                        LISTA
+                    </p>
+                </div>
 
-    
-    
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    LOGO
+                </div>
+                <div class="col-2">
+                    REGISTRATI
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </footer>
+
+
     <!-- lasciarlo in fondo e non toglierlo -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
