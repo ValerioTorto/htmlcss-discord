@@ -3,25 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-.bg-blu{
+
+.bg-blu {
     background-color: #255EE9;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-.flexo{
+
+.flexo {
     display: flex;
     justify-content: space-evenly;
 }
-.flexo1{
+
+.flexo1 {
     display: flex;
     justify-content: space-evenly;
 }
-.m-le{
+
+.m-le {
     margin-left: 100px;
 }
-.bot1{
+
+.bot1 {
     border-radius: 60px;
     border-color: white;
     background-color: white;
@@ -30,110 +36,143 @@ a{
     padding-left: 6px;
     padding-right: 6px;
 }
-.bg-nero{
+
+.bg-nero {
     background-color: #23272A;
 }
-.bg-im1{
+
+.bg-im1 {
     background-image: url("../img/jumbo.png");
     background-size: 100%;
     background-position: 70%;
 }
-.bg-im2{
+
+.bg-im2 {
     background-image: url("../img/stars.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 500px;
     text-align: center;
-    padding: 60px;   
+    padding: 60px;
 }
 
-.pad{
+.pad {
     padding: 50px;
 }
-.pad1{
+
+.pad1 {
     padding: 70px;
 }
-.pad2{
+
+.pad2 {
     padding: 40px;
     padding-right: 200px;
 }
-.pad3{
+
+.pad3 {
     padding: 50px;
     padding-left: 200px;
 }
-.pad4{
+
+.pad4 {
     padding-top: 120px;
     padding-right: 200px;
 }
-.bianco{
+
+.bianco {
     color: white;
 }
-.m-top{
+
+.m-top {
     padding-top: 50px;
 }
-.m-bu{
+
+.m-bu {
     margin-right: 20px;
 }
-.bt-ble{
+
+.bt-ble {
     background-color: #7289DA;
 }
-.bottoni{
+
+.bottoni {
     border-radius: 60px;
     color: white;
 }
-.nero{
+
+.nero {
     color: black;
 }
-.bottoni1{
+
+.bottoni1 {
     border-radius: 60px;
     color: white;
     margin-left: 43%;
     margin-bottom: 10%;
 }
-.justify-text{
+
+.bot-fin {
+    border-radius: 60px;
+    color: white;
+    margin-bottom: 10%;
+    margin-left: 15%;
+
+}
+
+.justify-text {
     text-align: center;
     padding: 20px;
 }
-.pic-center{
+
+.pic-center {
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.t-blu{
+
+.t-blu {
     color: #7289DA;
 }
-.t-bia{
+
+.t-bia {
     color: white;
 }
+
 ul {
-  list-style: none;
+    list-style: none;
 }
+
 .arrow {
     border: solid rgb(255, 255, 255);
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-  }
-  .down {
+}
+
+.down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-  }
-  .m-pic{
+}
+
+.m-pic {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
-  }
-  .prodotto{
+}
+
+.prodotto {
     margin-left: 30px;
-  }
-  .bandiera{
+}
+
+.bandiera {
     max-width: 10%;
     height: 50%;
     margin top: 50px;
-    
-  }
-  .flexo2{
-  display: flex; 
-  }
+
+}
+
+.flexo2 {
+    display: flex;
+}
